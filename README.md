@@ -1,7 +1,11 @@
-# Personal Device Hub — Web Demo
+# personal-device-hub-web-demo
 
-Public Flutter **web** build of [noclearance/personal-device-hub](https://github.com/noclearance/personal-device-hub) for iPhone Safari mock HUD preview.
+Public Flutter web demo for [noclearance/personal-device-hub](https://github.com/noclearance/personal-device-hub).
 
-**Caveat:** Live RTSP camera streams will not work well in Safari. This is a UI/HUD demo; native iOS is planned for real camera.
+- Live: https://noclearance.github.io/personal-device-hub-web-demo/
+- Source: `main` of personal-device-hub (mock-first HUD; live RTSP remains mock-only in Safari)
 
-Open: https://noclearance.github.io/personal-device-hub-web-demo/
+Built with:
+```bash
+flutter build web --release --base-href /personal-device-hub-web-demo/
+```
